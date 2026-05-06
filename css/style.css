@@ -6,6 +6,41 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+/* navbar */
+.navbar {
+    /* Add any specific styles for the navbar */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0px;
+}
+.navbar .logo {
+    /* Add any specific styles for the logo */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 30px;
+}
+.navbar .nav-links {
+    /* Add any specific styles for the navigation links */
+    display: flex;
+    gap: 60px;
+    background: #55637c;
+    padding: 10px 20px;
+    height: 50px;
+    width: 45%;
+    
+    padding-left: 100px;
+}
+.navbar .nav-links a {
+    /* Add any specific styles for the navigation link anchors */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+/* content */
 .home-content .content{
     color: aliceblue;
     text-align: left;
