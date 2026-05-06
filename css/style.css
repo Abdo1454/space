@@ -1,80 +1,89 @@
 /* home-content */
 .home-content {
- background: url(../assets/home/background-home-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background: url(../assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 /* navbar */
 .navbar {
-    /* Add any specific styles for the navbar */
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 0px;
+  /* Add any specific styles for the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
 }
 .navbar .logo {
-    /* Add any specific styles for the logo */
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 0px 30px;
+  /* Add any specific styles for the logo */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 30px;
 }
 .navbar .nav-links {
-    /* Add any specific styles for the navigation links */
-    display: flex;
-    gap: 60px;
-    background: #55637c;
-    padding: 10px 20px;
-    height: 50px;
-    width: 45%;
-    
-    padding-left: 100px;
+  /* Add any specific styles for the navigation links */
+  display: flex;
+  gap: 60px;
+  background: #55637c;
+  padding: 10px 20px;
+  height: 50px;
+  width: 45%;
+list-style: none;
+  padding-left: 100px;
 }
 .navbar .nav-links a {
-    /* Add any specific styles for the navigation link anchors */
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 20px 0px;
+  /* Add any specific styles for the navigation link anchors */
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 15px 0px;
 }
 /* content */
-.home-content .content{
-    color: aliceblue;
-    text-align: left;
-    padding: 150px 0px 0px 150px;
+.home-content .content {
+  color: aliceblue;
+  text-align: left;
+  padding: 150px 0px 0px 150px;
 }
 /* page-content */
 .page-content {
-    /* Add any specific styles for the page content container */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  /* Add any specific styles for the page content container */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.content h1{
-    font-size: 100px;
-    font-weight: 800;
-    letter-spacing: 5px;
+.content h1 {
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
-.content p{
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    margin: 20px 0px;
-    width: 600px;
+.content p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 20px 0px;
+  width: 600px;
 }
 /* explore-content */
 .explore-content {
-    text-align: right;
-
+  text-align: right;
 }
-.explore-content .explore-button{
-    background: white;
-    color: black;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    /* padding: 0px 50px; */
+.explore-content .explore-button {
+  background: white;
+  color: black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  /* padding: 0px 50px; */
+}
+/* Space Tourism - Destination */
+.destination-content {
+  background: url(../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
