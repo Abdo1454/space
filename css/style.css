@@ -1,4 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* home-content */
+
 .home-content {
   background: url(../assets/home/background-home-desktop.jpg);
   background-size: cover;
@@ -39,7 +45,7 @@ list-style: none;
   font-size: 18px;
   font-weight: 500;
   display: inline-block;
-  padding: 15px 0px;
+  padding: 7px 0px;
 }
 /* content */
 .home-content .content {
@@ -81,9 +87,40 @@ list-style: none;
 }
 /* Space Tourism - Destination */
 .destination-content {
-  background: url(../assets/destination/background-destination-desktop.jpg);
+  background:  url(../assets/destination/background-destination-desktop.jpg);
   background-size: cover;
-  background-position: center;
+  background-position:  center;
   background-repeat: no-repeat;
+  background-size:  cover;
   height: 100vh;
+}
+.content-2 {
+  padding: auto 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.destination-info {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.destination-info h1 {
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+.destination-info p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 20px 0px;
+  width: 600px;
+}
+.destination-meta {
+  display: flex;
+  gap: 10px;
 }
