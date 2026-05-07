@@ -137,7 +137,34 @@
   display: flex;
   gap: 40px;
 }
-.destination-button {
+.moon-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.mars-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.europa-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.titan-button {
   background: transparent;
   color: white;
   border: none;
