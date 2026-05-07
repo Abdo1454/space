@@ -190,3 +190,50 @@
   gap: 0px;
   justify-content: flex-start;
 }
+/* ************************************crew-content************************************* */
+.crew-content {
+  background: url(../assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+.page-content-3 h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 4px;
+    font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 150px;
+}
+.crew-info{
+  padding: 150px 50px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+    font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.description{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 20px 0px;
+  width: 600px;
+}
+/* .content-3{
+
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+.crew-image {
+  width: 400px;
+  height: auto;
+} */
