@@ -1,4 +1,4 @@
-let name = document.getElementById("name");
+let name = document.getElementById("name-destination");
 let description = document.getElementById("description");
 let distance = document.getElementById("distance");
 let travel = document.getElementById("travel");
@@ -10,40 +10,28 @@ let europaButton = document.querySelector(".europa-button");
 let titanButton = document.querySelector(".titan-button");
 
 // Buttons array
-const buttons = [
-  moonButton,
-  marsButton,
-  europaButton,
-  titanButton
-];
+const buttons = [moonButton, marsButton, europaButton, titanButton];
 
 // Get saved or default
-const savedDestination =
-  localStorage.getItem("selectedDestination") || "Moon";
+const savedDestination = localStorage.getItem("selectedDestination") || "Moon";
 
 // Set active button
 function setActiveButton(destination) {
-  buttons.forEach(btn => {
-    btn.classList.toggle(
-      "active",
-      btn.dataset.destination === destination
-    );
+  buttons.forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.destination === destination);
   });
 }
 
 // Fetch and update UI
 function changeDestination(destination) {
-
   fetch("data.json")
-    .then(res => res.json())
-    .then(data => {
-
+    .then((res) => res.json())
+    .then((data) => {
       const destinationData = data.destinations.find(
-        d => d.name === destination
+        (d) => d.name === destination,
       );
 
       if (destinationData) {
-
         name.textContent = destinationData.name;
         description.textContent = destinationData.description;
         distance.textContent = destinationData.distance;
@@ -54,22 +42,18 @@ function changeDestination(destination) {
         setActiveButton(destination);
       }
     })
-    .catch(err => console.log("Error:", err));
+    .catch((err) => console.log("Error:", err));
 }
 
 // Load initial state
 changeDestination(savedDestination);
 
 // Handle clicks
-buttons.forEach(btn => {
+buttons.forEach((btn) => {
   btn.addEventListener("click", () => {
-
     const destination = btn.dataset.destination;
 
-    localStorage.setItem(
-      "selectedDestination",
-      destination
-    );
+    localStorage.setItem("selectedDestination", destination);
 
     changeDestination(destination);
   });

@@ -31,7 +31,9 @@
   /* Add any specific styles for the navigation links */
   display: flex;
   gap: 60px;
-  background: #55637c;
+  background: #ffffff0d;
+  /* border: 2px solid #494a4f; */
+
   padding: 10px 20px;
   height: 70px;
   width: 45%;
@@ -118,10 +120,16 @@
   align-items: center;
   gap: 100px;
 }
+.destination-hr {
+  border: 1px solid #494a4f;
+  width: 600px;
+  margin: 20px 0px;
+}
 /******************buttons container******************/
 .active {
   /* border-bottom: 3px solid white; t*/
   text-decoration: underline;
+  text-underline-offset: 10px;
 }
 .destination-info {
   padding: 150px 50px 50px 0px;
@@ -190,6 +198,12 @@
   gap: 0px;
   justify-content: flex-start;
 }
+#name-destination {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
 /* ************************************crew-content************************************* */
 .crew-content {
   background: url(../assets/crew/background-crew-desktop.jpg);
@@ -210,7 +224,7 @@
   margin-left: 150px;
 }
 .two-page {
-  color:#494a4f;
+  color: #494a4f;
 }
 .content-3 {
   display: flex;
@@ -228,7 +242,7 @@
   font-weight: 100;
   font-style: normal;
 }
-.role{
+.role {
   font-size: 30px;
   font-weight: 500;
   color: #494a4f;
@@ -242,7 +256,7 @@
   margin: 20px 0px;
   width: 600px;
 }
-.name-crew{
+.name-crew {
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 5px;
@@ -261,13 +275,13 @@
   margin-top: 30px;
 }
 .circule-control button {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 2px solid #494a4f;
-  background: transparent;
+  background: #494a4f;
   cursor: pointer;
 }
 .circule-control button.active {
-  background: #dbdbdf;
+  background: #c8c8cf;
 }
