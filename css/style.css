@@ -285,11 +285,3 @@
 .circule-control button.active {
   background: #c8c8cf;
 }
-**************************************technology-content************************************* */
-.technology-content {
-  background: url(../assets/technology/background-technology-desktop.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 110vh;
-}
